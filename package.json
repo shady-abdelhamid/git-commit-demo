@@ -1,0 +1,30 @@
+{
+  "name": "git-commit-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shady-abdelhamid/git-commit-demo.git"
+  },
+  "keywords": [
+    "conventional",
+    "commit"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shady-abdelhamid/git-commit-demo/issues"
+  },
+  "homepage": "https://github.com/shady-abdelhamid/git-commit-demo#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/prompt": "^12.1.4",
+    "commitizen": "^4.2.4",
+    "cz-adapter-eslint": "^0.3.0",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
